@@ -19,13 +19,11 @@
           <a class="blog-nav-item" href="#part1">弹簧</a>
           <a class="blog-nav-item" href="#part2">振子</a>
           <a class="blog-nav-item" href="#part3">旅行</a>
+          <a class="blog-nav-item" href="#part4" href="https://www.weibo.com/iven5">读书</a>
         </nav>
       </div>
     </div>
-	<div class="intr">
-    	<span class="avtar"></span>
-        <p class="peointr"><a href="https://www.weibo.com/iven5"  font-size="25">Kindle 读书分享</a></p>
-    </div>
+    
     <div class="title" id="part1">Spring</div>
     <div class="content">
     	<div class="pic pic1">
