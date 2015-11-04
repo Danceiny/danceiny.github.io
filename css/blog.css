@@ -18,7 +18,13 @@ h6, .h6 {
   font-weight: normal;
   color: #333;
 }
-
+kindle.a{
+	display:block;
+	font-family:"微软雅黑";
+	font-size:25px;
+	font-color:red;
+	
+}
 
 /*
  * Override Bootstrap's default container.
