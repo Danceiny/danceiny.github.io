@@ -61,37 +61,41 @@ var _hmt = _hmt || [];
 					</li>
 			     </ul>
 			</div>
-			<div class="clearfix"> </div>
+			<div class="clearfix"></div>
 			<div class="header">
 				<div class="logo">
 					<a href="index.html"><img src="images/logo.png" alt=""></a>
 				</div>
 				<div class="navigation">
-				 <spanclass="menu"></span> 
+				 <spanclass="menu"> 
 					<ul class="navig">
-						<li><a href="https://danceiny.github.io/tech/" >BlogJekyll</a><span>|</span></li>
-						<li><a href="http://danceiny.github.io/blog/" >BlogHexo</a><span>|</span></li>
-						<li><a href="https://www.weibo.com/iven5" >微博</a><span>|</span></li>
-						<li><a href="https://spring.farbox.com" >弹簧</a>&nbsp;与&nbsp;<a href="https://danceiny.github.io/spring">春天</a><span>|</span></li>
-						<li><a href="https://danceiny.farbox.com">阿呆</a>&nbsp;与&nbsp;<a href="http://diane.farbox.com">任何</a><span>|</span></li>
+						<li><a href="http://danceiny.github.io/blog/" class="scroll">BlogHexo</a><span>|</span></li>
+						<li><a href="https://danceiny.github.io/tech/" class="scroll">BlogJekyll</a><span>|</span></li>
+						
+						<li><a href="https://www.weibo.com/iven5" class="scroll">微博</a><span>|</span></li>
+						<li><a href="https://spring.farbox.com" class="scroll">弹簧</a>&nbsp;与&nbsp;<a href="https://danceiny.github.io/spring" class="scroll">春天</a><span>|</span></li>
+						<li><a href="https://danceiny.farbox.com" class="scroll">阿呆</a>&nbsp;与&nbsp;<a href="http://diane.farbox.com" class="scroll">任何</a><span>|</span></li>
 						<li><a href="#music" class="scroll">Music</a><span>|</span></li>
 						<li><a href="#contact" class="scroll">About Me</a></li>
 					</ul>
+				</span>
 				</div>
-				<div class="clearfix"></div>
 			</div>
+
+				<div class="clearfix"></div>
 			<div class="banner-bottom">
 				<ul>
-					<li><a href="#"><span class="twt"> </span></a></li>
-					<li><a href="#"><span class="t"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
+					<li><a href="#"><span class=""> </span></a></li>
+					<li><a href="#"><span class=""> </span></a></li>
+					<li><a href="#"><span class=""> </span></a></li>
 				</ul>
 			</div>
-		</div>	
+		</div>
+	
 	<!-- script-for-menu -->
 		 <script>
 				$("span.menu").click(function(){
-					$(" ul.navig").slideToggle("slow" , function(){
+					$("ul.navig").slideToggle("slow",function(){
 					});
 				});
 		 </script>
@@ -104,7 +108,7 @@ var _hmt = _hmt || [];
 			      // Slideshow 4
 			      $("#slider4").responsiveSlides({
 			        auto: true,
-			        pager: false,
+			        pager: true,
 			        nav: true,
 			        speed: 500,
 			        namespace: "callbacks",
